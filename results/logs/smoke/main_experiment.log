@@ -1,0 +1,8 @@
+[baseline] epoch   1  train_loss 2.3101  val_acc 0.2280
+[baseline] epoch   2  train_loss 2.1375  val_acc 0.2320
+[baseline] epoch   3  train_loss 1.9843  val_acc 0.2400
+seed 0 standard: test_acc 0.2390  MIA AUC 0.5332
+[dp eps=8] epoch   1  train_loss 2.3075  val_acc 0.1120  epsilon 5.310
+[dp eps=8] epoch   2  train_loss 2.2520  val_acc 0.1640  epsilon 6.823
+[dp eps=8] epoch   3  train_loss 2.1794  val_acc 0.1940  epsilon 7.994
+seed 0 dp eps=8: test_acc 0.2200  MIA AUC 0.5237  achieved eps 7.994  sigma 0.950

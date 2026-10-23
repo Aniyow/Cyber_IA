@@ -1,0 +1,465 @@
+[baseline] epoch   1  train_loss 2.0684  val_acc 0.3240
+[baseline] epoch   2  train_loss 1.8480  val_acc 0.3150
+[baseline] epoch   3  train_loss 1.7113  val_acc 0.3620
+[baseline] epoch   4  train_loss 1.5771  val_acc 0.4190
+[baseline] epoch   5  train_loss 1.4983  val_acc 0.4760
+[baseline] epoch   6  train_loss 1.3873  val_acc 0.4760
+[baseline] epoch   7  train_loss 1.3378  val_acc 0.5055
+[baseline] epoch   8  train_loss 1.2430  val_acc 0.4700
+[baseline] epoch   9  train_loss 1.1936  val_acc 0.5605
+[baseline] epoch  10  train_loss 1.0885  val_acc 0.5695
+[baseline] epoch  11  train_loss 1.0034  val_acc 0.5250
+[baseline] epoch  12  train_loss 0.9566  val_acc 0.5885
+[baseline] epoch  13  train_loss 0.8385  val_acc 0.6265
+[baseline] epoch  14  train_loss 0.7846  val_acc 0.6200
+[baseline] epoch  15  train_loss 0.7358  val_acc 0.6510
+[baseline] epoch  16  train_loss 0.5982  val_acc 0.6475
+[baseline] epoch  17  train_loss 0.5358  val_acc 0.6355
+[baseline] epoch  18  train_loss 0.4387  val_acc 0.5730
+[baseline] epoch  19  train_loss 0.4228  val_acc 0.6355
+[baseline] epoch  20  train_loss 0.3254  val_acc 0.6335
+[baseline] epoch  21  train_loss 0.2815  val_acc 0.6120
+[baseline] epoch  22  train_loss 0.2273  val_acc 0.6465
+[baseline] epoch  23  train_loss 0.2254  val_acc 0.6380
+[baseline] epoch  24  train_loss 0.1611  val_acc 0.6395
+[baseline] epoch  25  train_loss 0.1544  val_acc 0.6375
+[baseline] epoch  26  train_loss 0.1460  val_acc 0.6365
+[baseline] epoch  27  train_loss 0.1751  val_acc 0.6455
+[baseline] epoch  28  train_loss 0.0906  val_acc 0.6490
+[baseline] epoch  29  train_loss 0.0718  val_acc 0.6365
+[baseline] epoch  30  train_loss 0.0471  val_acc 0.6680
+seed 0 standard: test_acc 0.6613  MIA AUC 0.7324
+[dp eps=1] epoch   1  train_loss 2.2888  val_acc 0.1725  epsilon 0.172
+[dp eps=1] epoch   2  train_loss 2.2125  val_acc 0.2055  epsilon 0.240
+[dp eps=1] epoch   3  train_loss 2.1048  val_acc 0.2730  epsilon 0.295
+[dp eps=1] epoch   4  train_loss 2.0071  val_acc 0.2665  epsilon 0.343
+[dp eps=1] epoch   5  train_loss 1.9629  val_acc 0.2820  epsilon 0.385
+[dp eps=1] epoch   6  train_loss 1.9344  val_acc 0.2720  epsilon 0.423
+[dp eps=1] epoch   7  train_loss 1.9492  val_acc 0.2850  epsilon 0.459
+[dp eps=1] epoch   8  train_loss 1.9736  val_acc 0.3075  epsilon 0.492
+[dp eps=1] epoch   9  train_loss 1.9927  val_acc 0.2870  epsilon 0.524
+[dp eps=1] epoch  10  train_loss 1.9977  val_acc 0.2575  epsilon 0.554
+[dp eps=1] epoch  11  train_loss 1.9935  val_acc 0.2885  epsilon 0.582
+[dp eps=1] epoch  12  train_loss 2.0327  val_acc 0.3000  epsilon 0.610
+[dp eps=1] epoch  13  train_loss 2.0496  val_acc 0.2905  epsilon 0.636
+[dp eps=1] epoch  14  train_loss 2.0060  val_acc 0.2935  epsilon 0.661
+[dp eps=1] epoch  15  train_loss 2.0059  val_acc 0.3035  epsilon 0.686
+[dp eps=1] epoch  16  train_loss 2.0414  val_acc 0.3170  epsilon 0.710
+[dp eps=1] epoch  17  train_loss 2.0852  val_acc 0.3185  epsilon 0.733
+[dp eps=1] epoch  18  train_loss 2.0969  val_acc 0.3255  epsilon 0.756
+[dp eps=1] epoch  19  train_loss 2.0929  val_acc 0.3175  epsilon 0.778
+[dp eps=1] epoch  20  train_loss 2.0517  val_acc 0.3305  epsilon 0.799
+[dp eps=1] epoch  21  train_loss 2.0133  val_acc 0.3435  epsilon 0.821
+[dp eps=1] epoch  22  train_loss 2.1055  val_acc 0.3340  epsilon 0.841
+[dp eps=1] epoch  23  train_loss 2.1981  val_acc 0.3330  epsilon 0.861
+[dp eps=1] epoch  24  train_loss 2.1665  val_acc 0.3260  epsilon 0.881
+[dp eps=1] epoch  25  train_loss 2.1447  val_acc 0.3205  epsilon 0.901
+[dp eps=1] epoch  26  train_loss 2.1641  val_acc 0.3225  epsilon 0.920
+[dp eps=1] epoch  27  train_loss 2.1932  val_acc 0.3210  epsilon 0.939
+[dp eps=1] epoch  28  train_loss 2.1924  val_acc 0.3300  epsilon 0.957
+[dp eps=1] epoch  29  train_loss 2.1986  val_acc 0.3345  epsilon 0.975
+[dp eps=1] epoch  30  train_loss 2.2208  val_acc 0.3355  epsilon 0.993
+seed 0 dp eps=1: test_acc 0.3178  MIA AUC 0.5217  achieved eps 0.993  sigma 7.188
+[dp eps=3] epoch   1  train_loss 2.2836  val_acc 0.1925  epsilon 0.567
+[dp eps=3] epoch   2  train_loss 2.1499  val_acc 0.2875  epsilon 0.769
+[dp eps=3] epoch   3  train_loss 1.9678  val_acc 0.3095  epsilon 0.929
+[dp eps=3] epoch   4  train_loss 1.8498  val_acc 0.3475  epsilon 1.067
+[dp eps=3] epoch   5  train_loss 1.7695  val_acc 0.3660  epsilon 1.189
+[dp eps=3] epoch   6  train_loss 1.7163  val_acc 0.3790  epsilon 1.302
+[dp eps=3] epoch   7  train_loss 1.6638  val_acc 0.4020  epsilon 1.407
+[dp eps=3] epoch   8  train_loss 1.6539  val_acc 0.4050  epsilon 1.504
+[dp eps=3] epoch   9  train_loss 1.6527  val_acc 0.4095  epsilon 1.598
+[dp eps=3] epoch  10  train_loss 1.6276  val_acc 0.4280  epsilon 1.684
+[dp eps=3] epoch  11  train_loss 1.5827  val_acc 0.4235  epsilon 1.768
+[dp eps=3] epoch  12  train_loss 1.6064  val_acc 0.4375  epsilon 1.849
+[dp eps=3] epoch  13  train_loss 1.6099  val_acc 0.4305  epsilon 1.928
+[dp eps=3] epoch  14  train_loss 1.5804  val_acc 0.4240  epsilon 2.003
+[dp eps=3] epoch  15  train_loss 1.5711  val_acc 0.4245  epsilon 2.076
+[dp eps=3] epoch  16  train_loss 1.6037  val_acc 0.4210  epsilon 2.148
+[dp eps=3] epoch  17  train_loss 1.6012  val_acc 0.4395  epsilon 2.217
+[dp eps=3] epoch  18  train_loss 1.6008  val_acc 0.4465  epsilon 2.284
+[dp eps=3] epoch  19  train_loss 1.5735  val_acc 0.4615  epsilon 2.350
+[dp eps=3] epoch  20  train_loss 1.5692  val_acc 0.4735  epsilon 2.415
+[dp eps=3] epoch  21  train_loss 1.5519  val_acc 0.4730  epsilon 2.478
+[dp eps=3] epoch  22  train_loss 1.5606  val_acc 0.4790  epsilon 2.540
+[dp eps=3] epoch  23  train_loss 1.5752  val_acc 0.4800  epsilon 2.600
+[dp eps=3] epoch  24  train_loss 1.5784  val_acc 0.4700  epsilon 2.660
+[dp eps=3] epoch  25  train_loss 1.5935  val_acc 0.4695  epsilon 2.719
+[dp eps=3] epoch  26  train_loss 1.5985  val_acc 0.4895  epsilon 2.776
+[dp eps=3] epoch  27  train_loss 1.6373  val_acc 0.4870  epsilon 2.833
+[dp eps=3] epoch  28  train_loss 1.5942  val_acc 0.4845  epsilon 2.888
+[dp eps=3] epoch  29  train_loss 1.6422  val_acc 0.4880  epsilon 2.943
+[dp eps=3] epoch  30  train_loss 1.6380  val_acc 0.4830  epsilon 2.998
+seed 0 dp eps=3: test_acc 0.4679  MIA AUC 0.5203  achieved eps 2.998  sigma 2.773
+[dp eps=8] epoch   1  train_loss 2.2827  val_acc 0.1940  epsilon 1.869
+[dp eps=8] epoch   2  train_loss 2.1395  val_acc 0.2970  epsilon 2.339
+[dp eps=8] epoch   3  train_loss 1.9400  val_acc 0.3285  epsilon 2.720
+[dp eps=8] epoch   4  train_loss 1.8177  val_acc 0.3565  epsilon 3.052
+[dp eps=8] epoch   5  train_loss 1.7255  val_acc 0.3960  epsilon 3.352
+[dp eps=8] epoch   6  train_loss 1.6745  val_acc 0.4035  epsilon 3.629
+[dp eps=8] epoch   7  train_loss 1.5971  val_acc 0.4240  epsilon 3.888
+[dp eps=8] epoch   8  train_loss 1.5798  val_acc 0.4365  epsilon 4.132
+[dp eps=8] epoch   9  train_loss 1.5721  val_acc 0.4415  epsilon 4.364
+[dp eps=8] epoch  10  train_loss 1.5365  val_acc 0.4640  epsilon 4.587
+[dp eps=8] epoch  11  train_loss 1.4880  val_acc 0.4765  epsilon 4.801
+[dp eps=8] epoch  12  train_loss 1.5002  val_acc 0.4680  epsilon 5.007
+[dp eps=8] epoch  13  train_loss 1.5165  val_acc 0.4855  epsilon 5.206
+[dp eps=8] epoch  14  train_loss 1.4741  val_acc 0.4525  epsilon 5.400
+[dp eps=8] epoch  15  train_loss 1.5223  val_acc 0.4650  epsilon 5.588
+[dp eps=8] epoch  16  train_loss 1.5095  val_acc 0.4930  epsilon 5.771
+[dp eps=8] epoch  17  train_loss 1.5011  val_acc 0.4805  epsilon 5.950
+[dp eps=8] epoch  18  train_loss 1.4683  val_acc 0.4995  epsilon 6.125
+[dp eps=8] epoch  19  train_loss 1.4417  val_acc 0.4915  epsilon 6.296
+[dp eps=8] epoch  20  train_loss 1.4572  val_acc 0.5240  epsilon 6.465
+[dp eps=8] epoch  21  train_loss 1.4083  val_acc 0.5110  epsilon 6.629
+[dp eps=8] epoch  22  train_loss 1.4408  val_acc 0.5180  epsilon 6.792
+[dp eps=8] epoch  23  train_loss 1.4210  val_acc 0.5185  epsilon 6.949
+[dp eps=8] epoch  24  train_loss 1.4300  val_acc 0.5240  epsilon 7.107
+[dp eps=8] epoch  25  train_loss 1.4204  val_acc 0.5290  epsilon 7.260
+[dp eps=8] epoch  26  train_loss 1.3986  val_acc 0.5265  epsilon 7.412
+[dp eps=8] epoch  27  train_loss 1.4435  val_acc 0.5210  epsilon 7.562
+[dp eps=8] epoch  28  train_loss 1.4229  val_acc 0.5285  epsilon 7.708
+[dp eps=8] epoch  29  train_loss 1.4456  val_acc 0.5300  epsilon 7.855
+[dp eps=8] epoch  30  train_loss 1.4401  val_acc 0.5355  epsilon 7.999
+seed 0 dp eps=8: test_acc 0.5358  MIA AUC 0.5267  achieved eps 7.999  sigma 1.360
+[dp eps=32] epoch   1  train_loss 2.2824  val_acc 0.1955  epsilon 8.014
+[dp eps=32] epoch   2  train_loss 2.1366  val_acc 0.2995  epsilon 9.889
+[dp eps=32] epoch   3  train_loss 1.9344  val_acc 0.3285  epsilon 11.367
+[dp eps=32] epoch   4  train_loss 1.8138  val_acc 0.3685  epsilon 12.620
+[dp eps=32] epoch   5  train_loss 1.7120  val_acc 0.3970  epsilon 13.746
+[dp eps=32] epoch   6  train_loss 1.6499  val_acc 0.4125  epsilon 14.829
+[dp eps=32] epoch   7  train_loss 1.5849  val_acc 0.4270  epsilon 15.777
+[dp eps=32] epoch   8  train_loss 1.5678  val_acc 0.4505  epsilon 16.724
+[dp eps=32] epoch   9  train_loss 1.5507  val_acc 0.4550  epsilon 17.616
+[dp eps=32] epoch  10  train_loss 1.5079  val_acc 0.4710  epsilon 18.448
+[dp eps=32] epoch  11  train_loss 1.4680  val_acc 0.4725  epsilon 19.280
+[dp eps=32] epoch  12  train_loss 1.4696  val_acc 0.4785  epsilon 20.112
+[dp eps=32] epoch  13  train_loss 1.4916  val_acc 0.4585  epsilon 20.864
+[dp eps=32] epoch  14  train_loss 1.4377  val_acc 0.4850  epsilon 21.597
+[dp eps=32] epoch  15  train_loss 1.4328  val_acc 0.4975  epsilon 22.330
+[dp eps=32] epoch  16  train_loss 1.4387  val_acc 0.4850  epsilon 23.063
+[dp eps=32] epoch  17  train_loss 1.4605  val_acc 0.4995  epsilon 23.797
+[dp eps=32] epoch  18  train_loss 1.4422  val_acc 0.4905  epsilon 24.504
+[dp eps=32] epoch  19  train_loss 1.4398  val_acc 0.4990  epsilon 25.152
+[dp eps=32] epoch  20  train_loss 1.4401  val_acc 0.5130  epsilon 25.799
+[dp eps=32] epoch  21  train_loss 1.3876  val_acc 0.5275  epsilon 26.447
+[dp eps=32] epoch  22  train_loss 1.4000  val_acc 0.5060  epsilon 27.095
+[dp eps=32] epoch  23  train_loss 1.4150  val_acc 0.5365  epsilon 27.743
+[dp eps=32] epoch  24  train_loss 1.3917  val_acc 0.5455  epsilon 28.390
+[dp eps=32] epoch  25  train_loss 1.3506  val_acc 0.5350  epsilon 29.038
+[dp eps=32] epoch  26  train_loss 1.3431  val_acc 0.5385  epsilon 29.686
+[dp eps=32] epoch  27  train_loss 1.3830  val_acc 0.5475  epsilon 30.275
+[dp eps=32] epoch  28  train_loss 1.3807  val_acc 0.5455  epsilon 30.848
+[dp eps=32] epoch  29  train_loss 1.3812  val_acc 0.5495  epsilon 31.421
+[dp eps=32] epoch  30  train_loss 1.3611  val_acc 0.5610  epsilon 31.994
+seed 0 dp eps=32: test_acc 0.5555  MIA AUC 0.5320  achieved eps 31.994  sigma 0.664
+[baseline] epoch   1  train_loss 2.1443  val_acc 0.2915
+[baseline] epoch   2  train_loss 1.9249  val_acc 0.3485
+[baseline] epoch   3  train_loss 1.7908  val_acc 0.3845
+[baseline] epoch   4  train_loss 1.6773  val_acc 0.4170
+[baseline] epoch   5  train_loss 1.5631  val_acc 0.3630
+[baseline] epoch   6  train_loss 1.5140  val_acc 0.4340
+[baseline] epoch   7  train_loss 1.4110  val_acc 0.4965
+[baseline] epoch   8  train_loss 1.3150  val_acc 0.4930
+[baseline] epoch   9  train_loss 1.2621  val_acc 0.5255
+[baseline] epoch  10  train_loss 1.1521  val_acc 0.5705
+[baseline] epoch  11  train_loss 1.0787  val_acc 0.4975
+[baseline] epoch  12  train_loss 0.9979  val_acc 0.5480
+[baseline] epoch  13  train_loss 0.9410  val_acc 0.5765
+[baseline] epoch  14  train_loss 0.8365  val_acc 0.6070
+[baseline] epoch  15  train_loss 0.7470  val_acc 0.5985
+[baseline] epoch  16  train_loss 0.6612  val_acc 0.6020
+[baseline] epoch  17  train_loss 0.5869  val_acc 0.6040
+[baseline] epoch  18  train_loss 0.4911  val_acc 0.5715
+[baseline] epoch  19  train_loss 0.4087  val_acc 0.5890
+[baseline] epoch  20  train_loss 0.3600  val_acc 0.6065
+[baseline] epoch  21  train_loss 0.2557  val_acc 0.6120
+[baseline] epoch  22  train_loss 0.2340  val_acc 0.6085
+[baseline] epoch  23  train_loss 0.2090  val_acc 0.6055
+[baseline] epoch  24  train_loss 0.1622  val_acc 0.5780
+[baseline] epoch  25  train_loss 0.2485  val_acc 0.6110
+[baseline] epoch  26  train_loss 0.1518  val_acc 0.6100
+[baseline] epoch  27  train_loss 0.0592  val_acc 0.6215
+[baseline] epoch  28  train_loss 0.0945  val_acc 0.6155
+[baseline] epoch  29  train_loss 0.1348  val_acc 0.6120
+[baseline] epoch  30  train_loss 0.0443  val_acc 0.6310
+seed 1 standard: test_acc 0.6325  MIA AUC 0.7468
+[dp eps=1] epoch   1  train_loss 2.2919  val_acc 0.1440  epsilon 0.172
+[dp eps=1] epoch   2  train_loss 2.2390  val_acc 0.2070  epsilon 0.240
+[dp eps=1] epoch   3  train_loss 2.1693  val_acc 0.2185  epsilon 0.295
+[dp eps=1] epoch   4  train_loss 2.0942  val_acc 0.2480  epsilon 0.343
+[dp eps=1] epoch   5  train_loss 2.0531  val_acc 0.2640  epsilon 0.385
+[dp eps=1] epoch   6  train_loss 2.0194  val_acc 0.2735  epsilon 0.423
+[dp eps=1] epoch   7  train_loss 2.0043  val_acc 0.2785  epsilon 0.459
+[dp eps=1] epoch   8  train_loss 2.0114  val_acc 0.2800  epsilon 0.492
+[dp eps=1] epoch   9  train_loss 2.0041  val_acc 0.2645  epsilon 0.524
+[dp eps=1] epoch  10  train_loss 2.0388  val_acc 0.2880  epsilon 0.554
+[dp eps=1] epoch  11  train_loss 2.0543  val_acc 0.2820  epsilon 0.582
+[dp eps=1] epoch  12  train_loss 2.0964  val_acc 0.2830  epsilon 0.610
+[dp eps=1] epoch  13  train_loss 2.1031  val_acc 0.2855  epsilon 0.636
+[dp eps=1] epoch  14  train_loss 2.0606  val_acc 0.2960  epsilon 0.661
+[dp eps=1] epoch  15  train_loss 2.0803  val_acc 0.2835  epsilon 0.686
+[dp eps=1] epoch  16  train_loss 2.1112  val_acc 0.2920  epsilon 0.710
+[dp eps=1] epoch  17  train_loss 2.1126  val_acc 0.2945  epsilon 0.733
+[dp eps=1] epoch  18  train_loss 2.1065  val_acc 0.2995  epsilon 0.756
+[dp eps=1] epoch  19  train_loss 2.1405  val_acc 0.2870  epsilon 0.778
+[dp eps=1] epoch  20  train_loss 2.1455  val_acc 0.2855  epsilon 0.799
+[dp eps=1] epoch  21  train_loss 2.1150  val_acc 0.3100  epsilon 0.821
+[dp eps=1] epoch  22  train_loss 2.1011  val_acc 0.3185  epsilon 0.841
+[dp eps=1] epoch  23  train_loss 2.0829  val_acc 0.3130  epsilon 0.861
+[dp eps=1] epoch  24  train_loss 2.0795  val_acc 0.3150  epsilon 0.881
+[dp eps=1] epoch  25  train_loss 2.1299  val_acc 0.3200  epsilon 0.901
+[dp eps=1] epoch  26  train_loss 2.1192  val_acc 0.3100  epsilon 0.920
+[dp eps=1] epoch  27  train_loss 2.1544  val_acc 0.3075  epsilon 0.939
+[dp eps=1] epoch  28  train_loss 2.2174  val_acc 0.2905  epsilon 0.957
+[dp eps=1] epoch  29  train_loss 2.2244  val_acc 0.3035  epsilon 0.975
+[dp eps=1] epoch  30  train_loss 2.2112  val_acc 0.3145  epsilon 0.993
+seed 1 dp eps=1: test_acc 0.3209  MIA AUC 0.5080  achieved eps 0.993  sigma 7.188
+[dp eps=3] epoch   1  train_loss 2.2862  val_acc 0.1505  epsilon 0.567
+[dp eps=3] epoch   2  train_loss 2.1925  val_acc 0.2555  epsilon 0.769
+[dp eps=3] epoch   3  train_loss 2.0548  val_acc 0.2920  epsilon 0.929
+[dp eps=3] epoch   4  train_loss 1.9485  val_acc 0.3135  epsilon 1.067
+[dp eps=3] epoch   5  train_loss 1.8576  val_acc 0.3430  epsilon 1.189
+[dp eps=3] epoch   6  train_loss 1.7947  val_acc 0.3505  epsilon 1.302
+[dp eps=3] epoch   7  train_loss 1.7542  val_acc 0.3725  epsilon 1.407
+[dp eps=3] epoch   8  train_loss 1.6903  val_acc 0.3960  epsilon 1.504
+[dp eps=3] epoch   9  train_loss 1.6460  val_acc 0.4000  epsilon 1.598
+[dp eps=3] epoch  10  train_loss 1.6326  val_acc 0.4055  epsilon 1.684
+[dp eps=3] epoch  11  train_loss 1.6019  val_acc 0.4060  epsilon 1.768
+[dp eps=3] epoch  12  train_loss 1.5952  val_acc 0.4230  epsilon 1.849
+[dp eps=3] epoch  13  train_loss 1.6160  val_acc 0.4265  epsilon 1.928
+[dp eps=3] epoch  14  train_loss 1.5808  val_acc 0.4155  epsilon 2.003
+[dp eps=3] epoch  15  train_loss 1.5834  val_acc 0.4225  epsilon 2.076
+[dp eps=3] epoch  16  train_loss 1.5976  val_acc 0.4375  epsilon 2.148
+[dp eps=3] epoch  17  train_loss 1.5972  val_acc 0.4315  epsilon 2.217
+[dp eps=3] epoch  18  train_loss 1.5889  val_acc 0.4275  epsilon 2.284
+[dp eps=3] epoch  19  train_loss 1.6085  val_acc 0.4365  epsilon 2.350
+[dp eps=3] epoch  20  train_loss 1.6317  val_acc 0.4315  epsilon 2.415
+[dp eps=3] epoch  21  train_loss 1.6029  val_acc 0.4375  epsilon 2.478
+[dp eps=3] epoch  22  train_loss 1.6225  val_acc 0.4315  epsilon 2.540
+[dp eps=3] epoch  23  train_loss 1.6322  val_acc 0.4345  epsilon 2.600
+[dp eps=3] epoch  24  train_loss 1.6392  val_acc 0.4350  epsilon 2.660
+[dp eps=3] epoch  25  train_loss 1.6690  val_acc 0.4445  epsilon 2.719
+[dp eps=3] epoch  26  train_loss 1.6349  val_acc 0.4620  epsilon 2.776
+[dp eps=3] epoch  27  train_loss 1.6433  val_acc 0.4545  epsilon 2.833
+[dp eps=3] epoch  28  train_loss 1.6475  val_acc 0.4525  epsilon 2.888
+[dp eps=3] epoch  29  train_loss 1.6494  val_acc 0.4630  epsilon 2.943
+[dp eps=3] epoch  30  train_loss 1.6249  val_acc 0.4540  epsilon 2.998
+seed 1 dp eps=3: test_acc 0.4626  MIA AUC 0.5173  achieved eps 2.998  sigma 2.773
+[dp eps=8] epoch   1  train_loss 2.2856  val_acc 0.1595  epsilon 1.869
+[dp eps=8] epoch   2  train_loss 2.1835  val_acc 0.2635  epsilon 2.339
+[dp eps=8] epoch   3  train_loss 2.0248  val_acc 0.3130  epsilon 2.720
+[dp eps=8] epoch   4  train_loss 1.9009  val_acc 0.3345  epsilon 3.052
+[dp eps=8] epoch   5  train_loss 1.8049  val_acc 0.3635  epsilon 3.352
+[dp eps=8] epoch   6  train_loss 1.7332  val_acc 0.3875  epsilon 3.629
+[dp eps=8] epoch   7  train_loss 1.6823  val_acc 0.4035  epsilon 3.888
+[dp eps=8] epoch   8  train_loss 1.6244  val_acc 0.4110  epsilon 4.132
+[dp eps=8] epoch   9  train_loss 1.5909  val_acc 0.4150  epsilon 4.364
+[dp eps=8] epoch  10  train_loss 1.5859  val_acc 0.4370  epsilon 4.587
+[dp eps=8] epoch  11  train_loss 1.5553  val_acc 0.4325  epsilon 4.801
+[dp eps=8] epoch  12  train_loss 1.5704  val_acc 0.4380  epsilon 5.007
+[dp eps=8] epoch  13  train_loss 1.5606  val_acc 0.4590  epsilon 5.206
+[dp eps=8] epoch  14  train_loss 1.5328  val_acc 0.4485  epsilon 5.400
+[dp eps=8] epoch  15  train_loss 1.5360  val_acc 0.4555  epsilon 5.588
+[dp eps=8] epoch  16  train_loss 1.5267  val_acc 0.4545  epsilon 5.771
+[dp eps=8] epoch  17  train_loss 1.5236  val_acc 0.4595  epsilon 5.950
+[dp eps=8] epoch  18  train_loss 1.5017  val_acc 0.4670  epsilon 6.125
+[dp eps=8] epoch  19  train_loss 1.5085  val_acc 0.4710  epsilon 6.296
+[dp eps=8] epoch  20  train_loss 1.5220  val_acc 0.4735  epsilon 6.465
+[dp eps=8] epoch  21  train_loss 1.5014  val_acc 0.4830  epsilon 6.629
+[dp eps=8] epoch  22  train_loss 1.5123  val_acc 0.4690  epsilon 6.792
+[dp eps=8] epoch  23  train_loss 1.5040  val_acc 0.4765  epsilon 6.949
+[dp eps=8] epoch  24  train_loss 1.4783  val_acc 0.4840  epsilon 7.107
+[dp eps=8] epoch  25  train_loss 1.5016  val_acc 0.4995  epsilon 7.260
+[dp eps=8] epoch  26  train_loss 1.4701  val_acc 0.4850  epsilon 7.412
+[dp eps=8] epoch  27  train_loss 1.5107  val_acc 0.5010  epsilon 7.562
+[dp eps=8] epoch  28  train_loss 1.4957  val_acc 0.5010  epsilon 7.708
+[dp eps=8] epoch  29  train_loss 1.5304  val_acc 0.5100  epsilon 7.855
+[dp eps=8] epoch  30  train_loss 1.4547  val_acc 0.4955  epsilon 7.999
+seed 1 dp eps=8: test_acc 0.5077  MIA AUC 0.5209  achieved eps 7.999  sigma 1.360
+[dp eps=32] epoch   1  train_loss 2.2854  val_acc 0.1540  epsilon 8.014
+[dp eps=32] epoch   2  train_loss 2.1822  val_acc 0.2695  epsilon 9.889
+[dp eps=32] epoch   3  train_loss 2.0200  val_acc 0.3155  epsilon 11.367
+[dp eps=32] epoch   4  train_loss 1.8911  val_acc 0.3365  epsilon 12.620
+[dp eps=32] epoch   5  train_loss 1.7933  val_acc 0.3740  epsilon 13.746
+[dp eps=32] epoch   6  train_loss 1.7164  val_acc 0.3800  epsilon 14.829
+[dp eps=32] epoch   7  train_loss 1.6634  val_acc 0.4095  epsilon 15.777
+[dp eps=32] epoch   8  train_loss 1.6190  val_acc 0.4180  epsilon 16.724
+[dp eps=32] epoch   9  train_loss 1.5799  val_acc 0.4175  epsilon 17.616
+[dp eps=32] epoch  10  train_loss 1.5636  val_acc 0.4370  epsilon 18.448
+[dp eps=32] epoch  11  train_loss 1.5319  val_acc 0.4460  epsilon 19.280
+[dp eps=32] epoch  12  train_loss 1.5446  val_acc 0.4570  epsilon 20.112
+[dp eps=32] epoch  13  train_loss 1.5271  val_acc 0.4740  epsilon 20.864
+[dp eps=32] epoch  14  train_loss 1.4894  val_acc 0.4615  epsilon 21.597
+[dp eps=32] epoch  15  train_loss 1.5117  val_acc 0.4745  epsilon 22.330
+[dp eps=32] epoch  16  train_loss 1.4827  val_acc 0.4745  epsilon 23.063
+[dp eps=32] epoch  17  train_loss 1.4517  val_acc 0.4770  epsilon 23.797
+[dp eps=32] epoch  18  train_loss 1.4695  val_acc 0.4850  epsilon 24.504
+[dp eps=32] epoch  19  train_loss 1.4884  val_acc 0.4960  epsilon 25.152
+[dp eps=32] epoch  20  train_loss 1.4759  val_acc 0.5015  epsilon 25.799
+[dp eps=32] epoch  21  train_loss 1.4764  val_acc 0.4990  epsilon 26.447
+[dp eps=32] epoch  22  train_loss 1.4896  val_acc 0.5120  epsilon 27.095
+[dp eps=32] epoch  23  train_loss 1.4705  val_acc 0.5005  epsilon 27.743
+[dp eps=32] epoch  24  train_loss 1.4222  val_acc 0.5125  epsilon 28.390
+[dp eps=32] epoch  25  train_loss 1.4490  val_acc 0.5150  epsilon 29.038
+[dp eps=32] epoch  26  train_loss 1.4139  val_acc 0.5055  epsilon 29.686
+[dp eps=32] epoch  27  train_loss 1.4292  val_acc 0.5215  epsilon 30.275
+[dp eps=32] epoch  28  train_loss 1.4427  val_acc 0.5135  epsilon 30.848
+[dp eps=32] epoch  29  train_loss 1.4500  val_acc 0.4975  epsilon 31.421
+[dp eps=32] epoch  30  train_loss 1.4201  val_acc 0.5155  epsilon 31.994
+seed 1 dp eps=32: test_acc 0.5263  MIA AUC 0.5246  achieved eps 31.994  sigma 0.664
+[baseline] epoch   1  train_loss 2.0721  val_acc 0.2630
+[baseline] epoch   2  train_loss 1.8918  val_acc 0.3410
+[baseline] epoch   3  train_loss 1.7181  val_acc 0.4015
+[baseline] epoch   4  train_loss 1.5868  val_acc 0.4080
+[baseline] epoch   5  train_loss 1.4416  val_acc 0.4000
+[baseline] epoch   6  train_loss 1.3951  val_acc 0.4845
+[baseline] epoch   7  train_loss 1.2427  val_acc 0.4975
+[baseline] epoch   8  train_loss 1.1576  val_acc 0.5545
+[baseline] epoch   9  train_loss 1.0515  val_acc 0.5700
+[baseline] epoch  10  train_loss 0.9565  val_acc 0.5295
+[baseline] epoch  11  train_loss 0.9092  val_acc 0.5920
+[baseline] epoch  12  train_loss 0.7879  val_acc 0.5630
+[baseline] epoch  13  train_loss 0.7551  val_acc 0.6150
+[baseline] epoch  14  train_loss 0.6547  val_acc 0.6320
+[baseline] epoch  15  train_loss 0.5467  val_acc 0.6235
+[baseline] epoch  16  train_loss 0.4904  val_acc 0.6395
+[baseline] epoch  17  train_loss 0.4496  val_acc 0.6275
+[baseline] epoch  18  train_loss 0.3514  val_acc 0.6515
+[baseline] epoch  19  train_loss 0.3328  val_acc 0.6520
+[baseline] epoch  20  train_loss 0.2388  val_acc 0.6505
+[baseline] epoch  21  train_loss 0.1665  val_acc 0.6195
+[baseline] epoch  22  train_loss 0.1512  val_acc 0.6335
+[baseline] epoch  23  train_loss 0.0876  val_acc 0.6215
+[baseline] epoch  24  train_loss 0.1163  val_acc 0.6545
+[baseline] epoch  25  train_loss 0.0869  val_acc 0.6415
+[baseline] epoch  26  train_loss 0.0611  val_acc 0.6495
+[baseline] epoch  27  train_loss 0.1020  val_acc 0.6305
+[baseline] epoch  28  train_loss 0.0594  val_acc 0.6340
+[baseline] epoch  29  train_loss 0.0345  val_acc 0.6600
+[baseline] epoch  30  train_loss 0.0366  val_acc 0.6370
+seed 2 standard: test_acc 0.6283  MIA AUC 0.7294
+[dp eps=1] epoch   1  train_loss 2.2992  val_acc 0.1340  epsilon 0.172
+[dp eps=1] epoch   2  train_loss 2.2496  val_acc 0.1655  epsilon 0.240
+[dp eps=1] epoch   3  train_loss 2.1997  val_acc 0.2150  epsilon 0.295
+[dp eps=1] epoch   4  train_loss 2.1099  val_acc 0.2500  epsilon 0.343
+[dp eps=1] epoch   5  train_loss 2.0575  val_acc 0.2650  epsilon 0.385
+[dp eps=1] epoch   6  train_loss 2.0477  val_acc 0.2710  epsilon 0.423
+[dp eps=1] epoch   7  train_loss 2.0080  val_acc 0.2680  epsilon 0.459
+[dp eps=1] epoch   8  train_loss 2.0100  val_acc 0.2745  epsilon 0.492
+[dp eps=1] epoch   9  train_loss 2.0295  val_acc 0.2820  epsilon 0.524
+[dp eps=1] epoch  10  train_loss 2.0318  val_acc 0.2730  epsilon 0.554
+[dp eps=1] epoch  11  train_loss 2.0235  val_acc 0.2810  epsilon 0.582
+[dp eps=1] epoch  12  train_loss 2.0505  val_acc 0.2950  epsilon 0.610
+[dp eps=1] epoch  13  train_loss 2.0581  val_acc 0.2810  epsilon 0.636
+[dp eps=1] epoch  14  train_loss 2.0652  val_acc 0.3020  epsilon 0.661
+[dp eps=1] epoch  15  train_loss 2.0480  val_acc 0.3120  epsilon 0.686
+[dp eps=1] epoch  16  train_loss 2.0455  val_acc 0.3155  epsilon 0.710
+[dp eps=1] epoch  17  train_loss 2.0915  val_acc 0.3155  epsilon 0.733
+[dp eps=1] epoch  18  train_loss 2.1389  val_acc 0.3090  epsilon 0.756
+[dp eps=1] epoch  19  train_loss 2.1495  val_acc 0.2980  epsilon 0.778
+[dp eps=1] epoch  20  train_loss 2.1484  val_acc 0.2995  epsilon 0.799
+[dp eps=1] epoch  21  train_loss 2.1575  val_acc 0.3080  epsilon 0.821
+[dp eps=1] epoch  22  train_loss 2.1576  val_acc 0.3090  epsilon 0.841
+[dp eps=1] epoch  23  train_loss 2.0941  val_acc 0.3080  epsilon 0.861
+[dp eps=1] epoch  24  train_loss 2.1193  val_acc 0.3085  epsilon 0.881
+[dp eps=1] epoch  25  train_loss 2.0827  val_acc 0.3040  epsilon 0.901
+[dp eps=1] epoch  26  train_loss 2.0465  val_acc 0.2985  epsilon 0.920
+[dp eps=1] epoch  27  train_loss 2.0666  val_acc 0.2840  epsilon 0.939
+[dp eps=1] epoch  28  train_loss 2.0937  val_acc 0.2960  epsilon 0.957
+[dp eps=1] epoch  29  train_loss 2.1189  val_acc 0.2955  epsilon 0.975
+[dp eps=1] epoch  30  train_loss 2.1174  val_acc 0.3010  epsilon 0.993
+seed 2 dp eps=1: test_acc 0.3025  MIA AUC 0.5060  achieved eps 0.993  sigma 7.188
+[dp eps=3] epoch   1  train_loss 2.2925  val_acc 0.1805  epsilon 0.567
+[dp eps=3] epoch   2  train_loss 2.1952  val_acc 0.2405  epsilon 0.769
+[dp eps=3] epoch   3  train_loss 2.0446  val_acc 0.3000  epsilon 0.929
+[dp eps=3] epoch   4  train_loss 1.9135  val_acc 0.3365  epsilon 1.067
+[dp eps=3] epoch   5  train_loss 1.8064  val_acc 0.3740  epsilon 1.189
+[dp eps=3] epoch   6  train_loss 1.7456  val_acc 0.3855  epsilon 1.302
+[dp eps=3] epoch   7  train_loss 1.7093  val_acc 0.3855  epsilon 1.407
+[dp eps=3] epoch   8  train_loss 1.6654  val_acc 0.3880  epsilon 1.504
+[dp eps=3] epoch   9  train_loss 1.6258  val_acc 0.4005  epsilon 1.598
+[dp eps=3] epoch  10  train_loss 1.6191  val_acc 0.4115  epsilon 1.684
+[dp eps=3] epoch  11  train_loss 1.6044  val_acc 0.4220  epsilon 1.768
+[dp eps=3] epoch  12  train_loss 1.5868  val_acc 0.4195  epsilon 1.849
+[dp eps=3] epoch  13  train_loss 1.5647  val_acc 0.4250  epsilon 1.928
+[dp eps=3] epoch  14  train_loss 1.5487  val_acc 0.4290  epsilon 2.003
+[dp eps=3] epoch  15  train_loss 1.5511  val_acc 0.4300  epsilon 2.076
+[dp eps=3] epoch  16  train_loss 1.5645  val_acc 0.4265  epsilon 2.148
+[dp eps=3] epoch  17  train_loss 1.5435  val_acc 0.4480  epsilon 2.217
+[dp eps=3] epoch  18  train_loss 1.5712  val_acc 0.4595  epsilon 2.284
+[dp eps=3] epoch  19  train_loss 1.5615  val_acc 0.4460  epsilon 2.350
+[dp eps=3] epoch  20  train_loss 1.5752  val_acc 0.4525  epsilon 2.415
+[dp eps=3] epoch  21  train_loss 1.5718  val_acc 0.4535  epsilon 2.478
+[dp eps=3] epoch  22  train_loss 1.5967  val_acc 0.4505  epsilon 2.540
+[dp eps=3] epoch  23  train_loss 1.6236  val_acc 0.4595  epsilon 2.600
+[dp eps=3] epoch  24  train_loss 1.6092  val_acc 0.4560  epsilon 2.660
+[dp eps=3] epoch  25  train_loss 1.6345  val_acc 0.4595  epsilon 2.719
+[dp eps=3] epoch  26  train_loss 1.6294  val_acc 0.4660  epsilon 2.776
+[dp eps=3] epoch  27  train_loss 1.6249  val_acc 0.4600  epsilon 2.833
+[dp eps=3] epoch  28  train_loss 1.5944  val_acc 0.4520  epsilon 2.888
+[dp eps=3] epoch  29  train_loss 1.6522  val_acc 0.4670  epsilon 2.943
+[dp eps=3] epoch  30  train_loss 1.6382  val_acc 0.4525  epsilon 2.998
+seed 2 dp eps=3: test_acc 0.4574  MIA AUC 0.5200  achieved eps 2.998  sigma 2.773
+[dp eps=8] epoch   1  train_loss 2.2908  val_acc 0.1975  epsilon 1.869
+[dp eps=8] epoch   2  train_loss 2.1810  val_acc 0.2615  epsilon 2.339
+[dp eps=8] epoch   3  train_loss 2.0076  val_acc 0.3180  epsilon 2.720
+[dp eps=8] epoch   4  train_loss 1.8742  val_acc 0.3605  epsilon 3.052
+[dp eps=8] epoch   5  train_loss 1.7579  val_acc 0.3850  epsilon 3.352
+[dp eps=8] epoch   6  train_loss 1.6892  val_acc 0.4040  epsilon 3.629
+[dp eps=8] epoch   7  train_loss 1.6535  val_acc 0.4240  epsilon 3.888
+[dp eps=8] epoch   8  train_loss 1.5889  val_acc 0.4290  epsilon 4.132
+[dp eps=8] epoch   9  train_loss 1.5586  val_acc 0.4170  epsilon 4.364
+[dp eps=8] epoch  10  train_loss 1.5675  val_acc 0.4285  epsilon 4.587
+[dp eps=8] epoch  11  train_loss 1.5524  val_acc 0.4445  epsilon 4.801
+[dp eps=8] epoch  12  train_loss 1.5316  val_acc 0.4485  epsilon 5.007
+[dp eps=8] epoch  13  train_loss 1.4971  val_acc 0.4535  epsilon 5.206
+[dp eps=8] epoch  14  train_loss 1.4771  val_acc 0.4650  epsilon 5.400
+[dp eps=8] epoch  15  train_loss 1.4722  val_acc 0.4685  epsilon 5.588
+[dp eps=8] epoch  16  train_loss 1.5010  val_acc 0.4620  epsilon 5.771
+[dp eps=8] epoch  17  train_loss 1.5172  val_acc 0.4500  epsilon 5.950
+[dp eps=8] epoch  18  train_loss 1.5317  val_acc 0.4775  epsilon 6.125
+[dp eps=8] epoch  19  train_loss 1.5043  val_acc 0.4735  epsilon 6.296
+[dp eps=8] epoch  20  train_loss 1.4700  val_acc 0.4760  epsilon 6.465
+[dp eps=8] epoch  21  train_loss 1.4896  val_acc 0.4775  epsilon 6.629
+[dp eps=8] epoch  22  train_loss 1.4988  val_acc 0.4770  epsilon 6.792
+[dp eps=8] epoch  23  train_loss 1.4747  val_acc 0.4915  epsilon 6.949
+[dp eps=8] epoch  24  train_loss 1.4939  val_acc 0.4835  epsilon 7.107
+[dp eps=8] epoch  25  train_loss 1.4835  val_acc 0.4970  epsilon 7.260
+[dp eps=8] epoch  26  train_loss 1.4687  val_acc 0.5045  epsilon 7.412
+[dp eps=8] epoch  27  train_loss 1.4770  val_acc 0.5190  epsilon 7.562
+[dp eps=8] epoch  28  train_loss 1.4252  val_acc 0.5190  epsilon 7.708
+[dp eps=8] epoch  29  train_loss 1.4626  val_acc 0.5195  epsilon 7.855
+[dp eps=8] epoch  30  train_loss 1.4699  val_acc 0.5265  epsilon 7.999
+seed 2 dp eps=8: test_acc 0.5238  MIA AUC 0.5255  achieved eps 7.999  sigma 1.360
+[dp eps=32] epoch   1  train_loss 2.2903  val_acc 0.2045  epsilon 8.014
+[dp eps=32] epoch   2  train_loss 2.1765  val_acc 0.2690  epsilon 9.889
+[dp eps=32] epoch   3  train_loss 1.9956  val_acc 0.3150  epsilon 11.367
+[dp eps=32] epoch   4  train_loss 1.8587  val_acc 0.3620  epsilon 12.620
+[dp eps=32] epoch   5  train_loss 1.7360  val_acc 0.4035  epsilon 13.746
+[dp eps=32] epoch   6  train_loss 1.6584  val_acc 0.4135  epsilon 14.829
+[dp eps=32] epoch   7  train_loss 1.6183  val_acc 0.4235  epsilon 15.777
+[dp eps=32] epoch   8  train_loss 1.5555  val_acc 0.4360  epsilon 16.724
+[dp eps=32] epoch   9  train_loss 1.5242  val_acc 0.4325  epsilon 17.616
+[dp eps=32] epoch  10  train_loss 1.5356  val_acc 0.4480  epsilon 18.448
+[dp eps=32] epoch  11  train_loss 1.5232  val_acc 0.4490  epsilon 19.280
+[dp eps=32] epoch  12  train_loss 1.4944  val_acc 0.4610  epsilon 20.112
+[dp eps=32] epoch  13  train_loss 1.4663  val_acc 0.4625  epsilon 20.864
+[dp eps=32] epoch  14  train_loss 1.4615  val_acc 0.4740  epsilon 21.597
+[dp eps=32] epoch  15  train_loss 1.4520  val_acc 0.4775  epsilon 22.330
+[dp eps=32] epoch  16  train_loss 1.4936  val_acc 0.4840  epsilon 23.063
+[dp eps=32] epoch  17  train_loss 1.4755  val_acc 0.4765  epsilon 23.797
+[dp eps=32] epoch  18  train_loss 1.4768  val_acc 0.4910  epsilon 24.504
+[dp eps=32] epoch  19  train_loss 1.4608  val_acc 0.4890  epsilon 25.152
+[dp eps=32] epoch  20  train_loss 1.4245  val_acc 0.4960  epsilon 25.799
+[dp eps=32] epoch  21  train_loss 1.4500  val_acc 0.4970  epsilon 26.447
+[dp eps=32] epoch  22  train_loss 1.4541  val_acc 0.5125  epsilon 27.095
+[dp eps=32] epoch  23  train_loss 1.4314  val_acc 0.4930  epsilon 27.743
+[dp eps=32] epoch  24  train_loss 1.4752  val_acc 0.5195  epsilon 28.390
+[dp eps=32] epoch  25  train_loss 1.4174  val_acc 0.5170  epsilon 29.038
+[dp eps=32] epoch  26  train_loss 1.4225  val_acc 0.5270  epsilon 29.686
+[dp eps=32] epoch  27  train_loss 1.4000  val_acc 0.5155  epsilon 30.275
+[dp eps=32] epoch  28  train_loss 1.3855  val_acc 0.5255  epsilon 30.848
+[dp eps=32] epoch  29  train_loss 1.4103  val_acc 0.5360  epsilon 31.421
+[dp eps=32] epoch  30  train_loss 1.3979  val_acc 0.5420  epsilon 31.994
+seed 2 dp eps=32: test_acc 0.5363  MIA AUC 0.5258  achieved eps 31.994  sigma 0.664

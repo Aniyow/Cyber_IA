@@ -1,0 +1,180 @@
+{
+  "config": {
+    "seed": 0,
+    "n_records": 2000,
+    "k_values": [
+      2,
+      5,
+      10,
+      25,
+      50
+    ],
+    "max_suppression_rate": 0.02,
+    "noise_scales": [
+      0,
+      0.05,
+      0.1,
+      0.25,
+      0.5,
+      1.0
+    ]
+  },
+  "original_table": {
+    "unique_record_rate": 0.9765,
+    "k": 2,
+    "satisfied": false,
+    "num_classes": 1976,
+    "min_class_size": 1,
+    "mean_class_size": 1.0121457489878543,
+    "max_class_size": 3,
+    "utility_accuracy": 0.2783333333333333
+  },
+  "k_anonymity": [
+    {
+      "k": 2,
+      "age_level": 0,
+      "zip_level": 3,
+      "sex_level": 0,
+      "suppressed_records": 26,
+      "suppression_rate": 0.013,
+      "information_loss": 0.19999999999999998,
+      "verified": true,
+      "num_classes": 376,
+      "min_class_size": 2,
+      "mean_class_size": 5.25,
+      "max_class_size": 14,
+      "unique_record_rate": 0.0,
+      "min_distinct_diagnoses": 1,
+      "share_of_homogeneous_classes": 0.0425531914893617,
+      "utility_accuracy": 0.29679595278246207
+    },
+    {
+      "k": 5,
+      "age_level": 1,
+      "zip_level": 2,
+      "sex_level": 0,
+      "suppressed_records": 31,
+      "suppression_rate": 0.0155,
+      "information_loss": 0.21666666666666667,
+      "verified": true,
+      "num_classes": 140,
+      "min_class_size": 5,
+      "mean_class_size": 14.064285714285715,
+      "max_class_size": 24,
+      "unique_record_rate": 0.0,
+      "min_distinct_diagnoses": 2,
+      "share_of_homogeneous_classes": 0.0,
+      "utility_accuracy": 0.31810490693739424
+    },
+    {
+      "k": 10,
+      "age_level": 1,
+      "zip_level": 4,
+      "sex_level": 0,
+      "suppressed_records": 0,
+      "suppression_rate": 0.0,
+      "information_loss": 0.35000000000000003,
+      "verified": true,
+      "num_classes": 30,
+      "min_class_size": 18,
+      "mean_class_size": 66.66666666666667,
+      "max_class_size": 91,
+      "unique_record_rate": 0.0,
+      "min_distinct_diagnoses": 3,
+      "share_of_homogeneous_classes": 0.0,
+      "utility_accuracy": 0.315
+    },
+    {
+      "k": 25,
+      "age_level": 2,
+      "zip_level": 4,
+      "sex_level": 0,
+      "suppressed_records": 22,
+      "suppression_rate": 0.011,
+      "information_loss": 0.43333333333333335,
+      "verified": true,
+      "num_classes": 15,
+      "min_class_size": 38,
+      "mean_class_size": 131.86666666666667,
+      "max_class_size": 175,
+      "unique_record_rate": 0.0,
+      "min_distinct_diagnoses": 5,
+      "share_of_homogeneous_classes": 0.0,
+      "utility_accuracy": 0.3047138047138047
+    },
+    {
+      "k": 50,
+      "age_level": 4,
+      "zip_level": 2,
+      "sex_level": 0,
+      "suppressed_records": 0,
+      "suppression_rate": 0.0,
+      "information_loss": 0.4666666666666666,
+      "verified": true,
+      "num_classes": 10,
+      "min_class_size": 174,
+      "mean_class_size": 200.0,
+      "max_class_size": 223,
+      "unique_record_rate": 0.0,
+      "min_distinct_diagnoses": 5,
+      "share_of_homogeneous_classes": 0.0,
+      "utility_accuracy": 0.24333333333333335
+    }
+  ],
+  "perturbation": [
+    {
+      "noise_scale": 0,
+      "age_mae": 0.0,
+      "income_mae": 0.0,
+      "mean_age_error": 0.0,
+      "mean_income_error": 0.0,
+      "age_income_corr": 0.7941272763719478,
+      "linkage_rate": 0.9495
+    },
+    {
+      "noise_scale": 0.05,
+      "age_mae": 0.9596110606950947,
+      "income_mae": 760.0571694658397,
+      "mean_age_error": 0.01547960180971586,
+      "mean_income_error": 23.644705814964254,
+      "age_income_corr": 0.789044634276747,
+      "linkage_rate": 0.2085
+    },
+    {
+      "noise_scale": 0.1,
+      "age_mae": 1.930830335479106,
+      "income_mae": 1497.3677780011212,
+      "mean_age_error": 0.06642889996449952,
+      "mean_income_error": 44.90709398229228,
+      "age_income_corr": 0.7805809320922741,
+      "linkage_rate": 0.076
+    },
+    {
+      "noise_scale": 0.25,
+      "age_mae": 4.9262639152054595,
+      "income_mae": 3643.5341498206694,
+      "mean_age_error": 0.04331260859434849,
+      "mean_income_error": 53.7455607960801,
+      "age_income_corr": 0.6966624828319897,
+      "linkage_rate": 0.0175
+    },
+    {
+      "noise_scale": 0.5,
+      "age_mae": 9.949974251217874,
+      "income_mae": 7277.905702140447,
+      "mean_age_error": 0.5455793842090344,
+      "mean_income_error": 360.38164197207516,
+      "age_income_corr": 0.5351154423489025,
+      "linkage_rate": 0.0105
+    },
+    {
+      "noise_scale": 1.0,
+      "age_mae": 19.944043256968538,
+      "income_mae": 14990.132119482365,
+      "mean_age_error": 0.0482911599786533,
+      "mean_income_error": 29.270372689810756,
+      "age_income_corr": 0.22947922977706398,
+      "linkage_rate": 0.003
+    }
+  ]
+}

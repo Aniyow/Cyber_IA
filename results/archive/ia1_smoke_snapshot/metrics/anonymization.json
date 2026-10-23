@@ -1,0 +1,93 @@
+{
+  "config": {
+    "seed": 0,
+    "n_records": 500,
+    "k_values": [
+      2,
+      5
+    ],
+    "max_suppression_rate": 0.02,
+    "noise_scales": [
+      0,
+      0.1,
+      0.5
+    ]
+  },
+  "original_table": {
+    "unique_record_rate": 0.996,
+    "k": 2,
+    "satisfied": false,
+    "num_classes": 499,
+    "min_class_size": 1,
+    "mean_class_size": 1.002004008016032,
+    "max_class_size": 2,
+    "utility_accuracy": 0.34
+  },
+  "k_anonymity": [
+    {
+      "k": 2,
+      "age_level": 1,
+      "zip_level": 3,
+      "sex_level": 0,
+      "suppressed_records": 4,
+      "suppression_rate": 0.008,
+      "information_loss": 0.2833333333333333,
+      "verified": true,
+      "num_classes": 82,
+      "min_class_size": 2,
+      "mean_class_size": 6.048780487804878,
+      "max_class_size": 16,
+      "unique_record_rate": 0.0,
+      "min_distinct_diagnoses": 1,
+      "share_of_homogeneous_classes": 0.036585365853658534,
+      "utility_accuracy": 0.3422818791946309
+    },
+    {
+      "k": 5,
+      "age_level": 1,
+      "zip_level": 4,
+      "sex_level": 0,
+      "suppressed_records": 2,
+      "suppression_rate": 0.004,
+      "information_loss": 0.35000000000000003,
+      "verified": true,
+      "num_classes": 29,
+      "min_class_size": 5,
+      "mean_class_size": 17.17241379310345,
+      "max_class_size": 26,
+      "unique_record_rate": 0.0,
+      "min_distinct_diagnoses": 1,
+      "share_of_homogeneous_classes": 0.034482758620689655,
+      "utility_accuracy": 0.32666666666666666
+    }
+  ],
+  "perturbation": [
+    {
+      "noise_scale": 0,
+      "age_mae": 0.0,
+      "income_mae": 0.0,
+      "mean_age_error": 0.0,
+      "mean_income_error": 0.0,
+      "age_income_corr": 0.7919515196725592,
+      "linkage_rate": 0.992
+    },
+    {
+      "noise_scale": 0.1,
+      "age_mae": 1.9658734194997145,
+      "income_mae": 1575.893096651215,
+      "mean_age_error": 0.048055318885616316,
+      "mean_income_error": 146.13968978514458,
+      "age_income_corr": 0.7807946207789124,
+      "linkage_rate": 0.21
+    },
+    {
+      "noise_scale": 0.5,
+      "age_mae": 10.006115734678689,
+      "income_mae": 7306.878248491557,
+      "mean_age_error": 0.29768635166952606,
+      "mean_income_error": 284.62921462879603,
+      "age_income_corr": 0.5403359784460531,
+      "linkage_rate": 0.026
+    }
+  ]
+}

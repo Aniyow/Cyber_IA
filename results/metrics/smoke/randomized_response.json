@@ -1,0 +1,168 @@
+{
+  "config": {
+    "seed": 0,
+    "n_respondents": 2000,
+    "true_proportion": 0.3,
+    "epsilons": [
+      0.5,
+      1,
+      2,
+      4
+    ],
+    "trials": 50,
+    "sample_sizes": [
+      200,
+      2000
+    ],
+    "size_epsilon": 1.0
+  },
+  "results": [
+    {
+      "epsilon": 0.5,
+      "truth_probability": 0.6224593312018546,
+      "n": 2000,
+      "actual_proportion": 0.302,
+      "mean_estimate": 0.2974429571306989,
+      "mean_abs_error": 0.0385035754368868,
+      "rmse": 0.04777594984892274,
+      "empirical_std": 0.04755811964590414,
+      "theoretical_std": 0.044258886616321255,
+      "mean_flip_rate": 0.37700999999999996
+    },
+    {
+      "epsilon": 1,
+      "truth_probability": 0.7310585786300049,
+      "n": 2000,
+      "actual_proportion": 0.302,
+      "mean_estimate": 0.29801658836163414,
+      "mean_abs_error": 0.016099952386782475,
+      "rmse": 0.021051936586019098,
+      "empirical_std": 0.02067163432680399,
+      "theoretical_std": 0.0214554607758467,
+      "mean_flip_rate": 0.26772
+    },
+    {
+      "epsilon": 2,
+      "truth_probability": 0.8807970779778824,
+      "n": 2000,
+      "actual_proportion": 0.302,
+      "mean_estimate": 0.30170541118389094,
+      "mean_abs_error": 0.006408756403896567,
+      "rmse": 0.008173571999151176,
+      "empirical_std": 0.008168261544216838,
+      "theoretical_std": 0.009513553890150033,
+      "mean_flip_rate": 0.11886000000000001
+    },
+    {
+      "epsilon": 4,
+      "truth_probability": 0.9820137900379085,
+      "n": 2000,
+      "actual_proportion": 0.302,
+      "mean_estimate": 0.30237079940698747,
+      "mean_abs_error": 0.002365077563258804,
+      "rmse": 0.002915090291797523,
+      "empirical_std": 0.002891411283285353,
+      "theoretical_std": 0.0030826496281217046,
+      "mean_flip_rate": 0.01824
+    }
+  ],
+  "sample_size_results": [
+    {
+      "n": 200,
+      "epsilon": 1.0,
+      "mean_abs_error": 0.0721844154252666
+    },
+    {
+      "n": 2000,
+      "epsilon": 1.0,
+      "mean_abs_error": 0.018369802457682577
+    }
+  ],
+  "first_15_responses": {
+    "original": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "eps_0.5": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "eps_1": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "eps_2": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "eps_4": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ]
+  }
+}

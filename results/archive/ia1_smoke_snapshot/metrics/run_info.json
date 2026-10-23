@@ -1,0 +1,91 @@
+{
+  "config": {
+    "run_name": "smoke",
+    "seeds": [
+      0
+    ],
+    "n_members": 1000,
+    "n_val": 500,
+    "n_test": 1000,
+    "baseline": {
+      "epochs": 3,
+      "batch_size": 128,
+      "lr": 0.01,
+      "momentum": 0.9,
+      "weight_decay": 0.0
+    },
+    "dp": {
+      "epochs": 3,
+      "batch_size": 256,
+      "physical_batch_size": 128,
+      "lr": 0.5,
+      "momentum": 0.9,
+      "max_grad_norm": 1.0,
+      "delta": 1e-05,
+      "target_epsilons": [
+        8
+      ]
+    },
+    "randomized_response": {
+      "seed": 0,
+      "n_respondents": 2000,
+      "true_proportion": 0.3,
+      "epsilons": [
+        0.5,
+        1,
+        2,
+        4
+      ],
+      "trials": 50,
+      "sample_sizes": [
+        200,
+        2000
+      ],
+      "size_epsilon": 1.0
+    },
+    "anonymization": {
+      "seed": 0,
+      "n_records": 500,
+      "k_values": [
+        2,
+        5
+      ],
+      "max_suppression_rate": 0.02,
+      "noise_scales": [
+        0,
+        0.1,
+        0.5
+      ]
+    },
+    "compressive": {
+      "seed": 0,
+      "pca_components": [
+        16,
+        64
+      ],
+      "hidden": 256,
+      "epochs": 3,
+      "batch_size": 128,
+      "lr": 0.001
+    }
+  },
+  "config_file": "configs/smoke.json",
+  "device": "cuda",
+  "environment": {
+    "python": "3.12.5",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "cuda_available": true,
+    "packages": {
+      "torch": "2.16.0.dev20261006+cu132",
+      "torchvision": "0.30.0.dev20261006+cu132",
+      "opacus": "1.6.0",
+      "numpy": "2.5.3",
+      "pandas": "2.3.3",
+      "scikit-learn": "1.7.2",
+      "scipy": "1.17.1",
+      "matplotlib": "3.11.2"
+    },
+    "gpu": "NVIDIA GeForce RTX 5050 Laptop GPU"
+  },
+  "started": "2026-10-22 18:32:06"
+}

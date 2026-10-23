@@ -1,0 +1,11 @@
+age,zipcode,sex,diagnosis,annual_income
+75-79,13***,M,Flu,76400.0
+60-64,13***,F,Heart disease,75700.0
+50-54,14***,F,Diabetes,65100.0
+35-39,13***,M,Asthma,47600.0
+35-39,14***,F,Diabetes,52100.0
+20-24,15***,M,Diabetes,35200.0
+20-24,13***,M,Flu,38300.0
+15-19,14***,M,Flu,28300.0
+25-29,13***,M,Flu,41800.0
+70-74,14***,F,Asthma,74700.0

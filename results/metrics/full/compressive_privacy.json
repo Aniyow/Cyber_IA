@@ -1,0 +1,84 @@
+{
+  "config": {
+    "seed": 0,
+    "pca_components": [
+      8,
+      32,
+      128,
+      512
+    ],
+    "hidden": 512,
+    "epochs": 30,
+    "batch_size": 128,
+    "lr": 0.001
+  },
+  "n_members": 10000,
+  "n_test": 10000,
+  "results": [
+    {
+      "representation": "raw_pixels",
+      "n_features": 3072,
+      "explained_variance": 1.0,
+      "test_psnr_db": "",
+      "test_accuracy": 0.439,
+      "test_f1": 0.4381057738817876,
+      "train_accuracy": 0.9645,
+      "mia_loss_auc": 0.8224065599999999,
+      "mia_loss_advantage": 0.5606,
+      "label_only_auc": 0.5,
+      "train_time_sec": 3.8081005999993067
+    },
+    {
+      "representation": "pca_8",
+      "n_features": 8,
+      "explained_variance": 0.623482346534729,
+      "test_psnr_db": 16.26753044128418,
+      "test_accuracy": 0.3248,
+      "test_f1": 0.32366448237602474,
+      "train_accuracy": 0.5319,
+      "mia_loss_auc": 0.67025612,
+      "mia_loss_advantage": 0.24620000000000003,
+      "label_only_auc": 0.5,
+      "train_time_sec": 3.362283099995693
+    },
+    {
+      "representation": "pca_32",
+      "n_features": 32,
+      "explained_variance": 0.8019853830337524,
+      "test_psnr_db": 19.03221321105957,
+      "test_accuracy": 0.4567,
+      "test_f1": 0.45579111512611625,
+      "train_accuracy": 0.9998,
+      "mia_loss_auc": 0.8451082400000001,
+      "mia_loss_advantage": 0.679,
+      "label_only_auc": 0.5,
+      "train_time_sec": 3.4181605000048876
+    },
+    {
+      "representation": "pca_128",
+      "n_features": 128,
+      "explained_variance": 0.9205352663993835,
+      "test_psnr_db": 22.86432456970215,
+      "test_accuracy": 0.4776,
+      "test_f1": 0.4774859813226101,
+      "train_accuracy": 1.0,
+      "mia_loss_auc": 0.85697772,
+      "mia_loss_advantage": 0.7455999999999999,
+      "label_only_auc": 0.5,
+      "train_time_sec": 3.6159194000065327
+    },
+    {
+      "representation": "pca_512",
+      "n_features": 512,
+      "explained_variance": 0.9852298498153687,
+      "test_psnr_db": 29.587488174438477,
+      "test_accuracy": 0.4484,
+      "test_f1": 0.44827724072389524,
+      "train_accuracy": 1.0,
+      "mia_loss_auc": 0.8978954999999998,
+      "mia_loss_advantage": 0.8122,
+      "label_only_auc": 0.5,
+      "train_time_sec": 3.566574299999047
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+age,zipcode,sex,diagnosis,annual_income
+75,14***,M,Hypertension,68700.0
+61,13***,F,Diabetes,83200.0
+52,14***,M,Diabetes,59800.0
+36,15***,M,Hypertension,49000.0
+38,14***,M,Hypertension,58600.0
+20,14***,F,Flu,41400.0
+23,13***,M,Flu,28200.0
+19,14***,F,Flu,53500.0
+29,14***,F,Flu,51000.0
+73,14***,F,Hypertension,84600.0

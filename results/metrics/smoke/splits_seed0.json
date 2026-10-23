@@ -1,0 +1,67 @@
+{
+  "sizes": {
+    "members": 1000,
+    "non_members": 1000,
+    "validation": 500,
+    "test": 1000
+  },
+  "members_non_members_disjoint": true,
+  "validation_disjoint": true,
+  "test_source": "official CIFAR-10 test batch (never used for training or attack fitting)",
+  "class_counts": {
+    "members": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "non_members": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "validation": [
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50
+    ],
+    "test": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ]
+  },
+  "index_sha256": {
+    "members": "0e4a2f4305cdb4fae4798cae6ba5e68f43a8414762192435c08ed178d6f37c44",
+    "non_members": "3e43c51df14cd7340a5f4dda6ec61b2fc0a113cbac85b53b602a10a8ae2e206f",
+    "validation": "4d8a13e701c12e2322831fdf753cf21ff72579bd3717d100cb284a6712bc9b22",
+    "test": "5ba23e89d57dfeede30e8b26be4d3cf12b8282305010193eaaaaad269dc80275"
+  }
+}

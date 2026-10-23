@@ -1,0 +1,11 @@
+# Versions used for the recorded runs (see results/metrics/<run>/run_info.json for the exact list).
+# PyTorch is installed separately because the right build depends on your GPU / CUDA version:
+#   https://pytorch.org/get-started/locally/
+# torch>=2.6 and torchvision are required. The recorded runs used torch 2.16.0.dev20261006+cu132.
+opacus==1.6.0
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+pytest
