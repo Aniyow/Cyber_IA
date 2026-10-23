@@ -17,7 +17,7 @@ Status values: **Complete**, **Partial** or **Not Complete**. This checklist rec
 | Actual preliminary observations | `IA1_report.md` §9 (smoke snapshot, v1 archive) | Complete |
 | Proposed evaluation plan | `IA1_report.md` §10 | Complete |
 | Limitations and remaining work | `IA1_report.md` §11 | Complete |
-| Individual-contribution template | `IA1_report.md` §12 | Complete (to be filled in by students) |
+| Individual-contribution statement | `IA1_report.md` §12 (Sai Anirudh, 16014223071) | Complete |
 
 ## IA-2 (Implementation, Evaluation and Technical Outcomes)
 
@@ -38,7 +38,7 @@ Status values: **Complete**, **Partial** or **Not Complete**. This checklist rec
 | Evidence-based conclusion | `IA2_report.md` §12 | Complete |
 | References (verifiable) | `IA2_report.md` §13; DOIs checked on Crossref | Complete |
 | Reproducibility instructions | `IA2_report.md` §14, `README.md`, `configs/` | Complete |
-| Individual-contribution template | `IA2_report.md` §15 | Complete (to be filled in by students) |
+| Individual-contribution statement | `IA2_report.md` §15 (Sai Anirudh, 16014223071) | Complete |
 
 ## Technical requirements from the project brief
 
@@ -68,8 +68,6 @@ Status values: **Complete**, **Partial** or **Not Complete**. This checklist rec
 | Privacy-accounted hyperparameter tuning | Documented as a limitation | Not Complete |
 | Multi-seed Module 5 | Only seed 0 | Partial |
 
-## Items the students must complete
+## Before submission
 
-- Fill in names, roll numbers and contributions in both reports.
-- Disclose AI assistance according to the course policy.
-- Re-read the reports and adapt the wording so you can defend every claim in the viva.
+- Re-read the reports so that every claim can be defended in the viva.

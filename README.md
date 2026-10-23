@@ -41,7 +41,7 @@ The code, configs, reports, metric files, plots and logs are committed. The repo
 
 ## 1. Environment setup (Windows, PowerShell)
 
-These steps match the machine the results were produced on: Windows 11, Python 3.12.5, an NVIDIA RTX 5050 Laptop GPU and a PyTorch build with CUDA already installed system-wide. Run them from the project folder (the folder that contains this README, e.g. after `git clone <repo-url>` and `cd privacyguard-ml`):
+These steps match the machine the results were produced on: Windows 11, Python 3.12.5, an NVIDIA RTX 5050 Laptop GPU and a PyTorch build with CUDA already installed system-wide. Run them from the project folder (the folder that contains this README, e.g. after cloning the repository and running `cd privacyguard-ml`):
 
 ```powershell
 python -m venv --system-site-packages .venv

@@ -4,7 +4,7 @@
 
 **Subject:** Security and Privacy for Machine Learning
 
-**Student(s):** _[name, roll number]_  **Date:** 22 October 2026
+**Student:** Sai Anirudh  **Roll number:** 16014223071  **Date:** 22 October 2026
 
 ---
 
@@ -137,14 +137,15 @@ The standard model nearly memorizes its 10,000 training images (train accuracy 9
 - The CNN is small and trained without augmentation, so absolute accuracy is far below the state of the art.
 - **Remaining:** full DP-SGD runs, full Modules 3–5, final plots, and the IA-2 report.
 
-## 12. Individual-contribution statement (template)
+## 12. Individual-contribution statement
 
-| Team member | Roll no. | Contribution (code / experiments / writing) | Signature |
-|---|---|---|---|
-| _Name_ | _…_ | _e.g. data pipeline, membership attack, IA-1 sections 1–4_ | |
-| _Name_ | _…_ | _…_ | |
+This is an individual project.
 
-_Declaration:_ We confirm that the contribution described above is accurate. Any use of AI coding assistants in writing the code or reports has been disclosed to the instructor as required by the course policy.
+| Student | Roll number | Contribution |
+|---|---|---|
+| Sai Anirudh | 16014223071 | All work: problem formulation and module mapping, dataset selection and preparation, implementation of the data pipeline, CNN, standard and DP-SGD training, membership inference attack and Modules 3–5, tests, smoke and preliminary runs, and this report |
+
+**Declaration:** I confirm that the contribution described above is accurate. An AI coding assistant was used to help write parts of the code and draft the reports. I ran all experiments on my own machine, checked the results against the saved outputs, and take responsibility for the submitted work.
 
 ## References
 
